@@ -29,7 +29,7 @@ db.product.insertMany([
         Valor: 17,
         CodBarras: 3102258,
         Descricao: 'Com probiotico. Fortalece de dentro para fora',
-        Especie: ['Jabuti']
+        Especie: ['roedor']
     },
     {
         _id: 5,
@@ -37,6 +37,22 @@ db.product.insertMany([
         Valor: 225,
         CodBarras: 2545346,
         Descricao: 'Para primatas com tendencias herbivoras',
-        Especie: ['primatas']
+        Especie: ['primata']
+    },
+    {
+        _id: 6,
+        Nome: 'Ivermectina',
+        Valor: 10,
+        CodBarras: 516874841,
+        Descricao: 'Combate vermes em cães e gatos',
+        Especie: ['cachorro', 'gato']
+    },
+    {
+        _id: 7,
+        Nome: 'Insulina',
+        Valor: 50,
+        CodBarras: 15618512,
+        Descricao: 'Controle glicêmico em cães e gatos',
+        Especie: ['cachorro', 'gato']
     }
 ]);
